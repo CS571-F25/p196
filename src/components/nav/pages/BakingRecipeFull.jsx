@@ -19,7 +19,7 @@ export default function BakingRecipeFull(props){
 
     return <div>
         <h2>{recipe.name}</h2>
-        <p>I will put image here!</p>
+        <img src={recipe.img} alt={`this is ${recipe.name}`} style={{width: 500}}/>
         <p>Source: <a href={recipe.source.link}>Allrecipes</a></p>
         <h6>Recipe by {recipe.source.name}</h6>
         <h4>Ingredients</h4>

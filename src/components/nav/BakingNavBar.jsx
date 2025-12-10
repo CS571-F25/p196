@@ -1,5 +1,6 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router";
+import { BiBookmarkHeart } from "react-icons/bi";
 
 import logo from '../../assets/logo.png';
 
@@ -22,6 +23,7 @@ export default function BakingNavBar(props) {
                     <Nav.Link as={Link} to="/">Home</Nav.Link>
                     <Nav.Link as={Link} to="/recipes">Recipes</Nav.Link>
                     <Nav.Link as={Link} to="/surprise-me">Surprise Me!</Nav.Link>
+                    <Nav.Link as={Link} to="/favorites">Favorites <BiBookmarkHeart size={20}/></Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>
