@@ -21,7 +21,7 @@ export default function BakingRecipeFull(props){
         <h2>{recipe.name}</h2>
         <img src={recipe.img} alt={`this is ${recipe.name}`} style={{width: 500}}/>
         <p>Source: <a href={recipe.source.link}>Allrecipes</a></p>
-        <h6>Recipe by {recipe.source.name}</h6>
+        <p><strong>Recipe by {recipe.source.name}</strong></p>
         <h4>Ingredients</h4>
         <ul>
             {recipe.ingredients.map((ing, idx) => <li key={idx}>{ing}</li>)}
