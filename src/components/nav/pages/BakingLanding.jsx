@@ -6,7 +6,7 @@ export default function BakingLanding(props) {
 
     return <div>
         <br/>
-        <h1>Welcome to the Baking Club!</h1>
+        <h1 style={{fontFamily: "cursive"}}>Welcome to the Baking Club!</h1>
         <br/>
         <Container fluid={true}>
             <Row>

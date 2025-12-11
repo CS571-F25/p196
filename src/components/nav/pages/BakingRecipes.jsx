@@ -32,7 +32,7 @@ export default function BakingRecipes(props){
     }
 
     return <div>
-        <h1 style={{ textAlign: "center" }}>Pick a recipe!</h1>
+        <h1 style={{ textAlign: "center", fontFamily: "cursive" }}>Pick a recipe!</h1>
         <label htmlFor="level-selector">Level:</label>
         <select id="level-selector" style={{marginLeft: "5px"}} value={level} onChange={(e) => setLevel(e.target.value)}>
             <option value="All">All</option>
